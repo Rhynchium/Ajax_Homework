@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Ou/FX0zluu43GoMWHvWMCqWwjQe8PPbkG7i8oaJUtemTY/rZRKVPo6/Hp6STHCVEo0+wf3vYkC0spP4JWQOmg==",
+  "dgSpecHash": "11DQgDNTbyvI/280PVk9ruBaLrJsXPS70YVxX3WEvICwq1eadJRRZzI+3hkTLp76MG++DHaTl0oth3D6shNm1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\james\\OneDrive\\桌面\\程式開發\\Ajax\\AJAX_Course\\AJAX_Homework\\AJAX_Homework.csproj",
+  "projectFilePath": "C:\\Users\\james\\OneDrive\\文件\\GitHub\\Ajax_Homework\\AJAX_Homework\\AJAX_Homework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\james\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

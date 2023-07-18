@@ -10,18 +10,15 @@
 <hr />
 <div class="row">
     <div class="col-6">
-        <form method="Post" action="~/Home/CheckAccount" name="forminput"> 
+        <form method="Post" name="forminput" enctype="multipart/form-data">
 
             <div class="mb-3">
                 <label for="formFile" class="form-label">選擇檔案</label>
                 <input class="form-control" type="file" id="formFile" name="photo">
             </div>
-            <div class="mb-3" id="display">
-            </div>
 
-            <button @*type="submit"*@ class="btn btn-primary" id="butSubmit">Submit</button>
         </form>
-        <div id="result" class="alert alert-secondary mt-3"></div>
+        <div class="alert alert-secondary mt-3"><img id="display" /></div>
 
     </div>
 </div>
@@ -31,18 +28,13 @@
         const selectfile = document.querySelector("#formFile");
         const display = document.querySelector("#display");
 
+        //https://progressbar.tw/posts/47
+        //https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded
         selectfile.addEventListener("change", () => {
-            display.addEventListener("load", () => {
-                var showimg = document.getElementById("#display");
-                showimg.src = "";
-
-                const data = xhr.responseText;
-                result.innerHTML = `<img src="${data}" />`;
-            })
-
-            *******參考這個網站**********
-            https://blog.51cto.com/u_710020/5679836
+            const [file] = formFile.files
+            if (file) {
+                display.src = URL.createObjectURL(file)
+            }
         })
-
     </script>
 }

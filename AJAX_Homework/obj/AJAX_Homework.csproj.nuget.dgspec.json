@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\james\\OneDrive\\桌面\\程式開發\\Ajax\\AJAX_Course\\AJAX_Homework\\AJAX_Homework.csproj": {}
+    "C:\\Users\\james\\OneDrive\\文件\\GitHub\\Ajax_Homework\\AJAX_Homework\\AJAX_Homework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\james\\OneDrive\\桌面\\程式開發\\Ajax\\AJAX_Course\\AJAX_Homework\\AJAX_Homework.csproj": {
+    "C:\\Users\\james\\OneDrive\\文件\\GitHub\\Ajax_Homework\\AJAX_Homework\\AJAX_Homework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\james\\OneDrive\\桌面\\程式開發\\Ajax\\AJAX_Course\\AJAX_Homework\\AJAX_Homework.csproj",
+        "projectUniqueName": "C:\\Users\\james\\OneDrive\\文件\\GitHub\\Ajax_Homework\\AJAX_Homework\\AJAX_Homework.csproj",
         "projectName": "AJAX_Homework",
-        "projectPath": "C:\\Users\\james\\OneDrive\\桌面\\程式開發\\Ajax\\AJAX_Course\\AJAX_Homework\\AJAX_Homework.csproj",
+        "projectPath": "C:\\Users\\james\\OneDrive\\文件\\GitHub\\Ajax_Homework\\AJAX_Homework\\AJAX_Homework.csproj",
         "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\james\\OneDrive\\桌面\\程式開發\\Ajax\\AJAX_Course\\AJAX_Homework\\obj\\",
+        "outputPath": "C:\\Users\\james\\OneDrive\\文件\\GitHub\\Ajax_Homework\\AJAX_Homework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\程式開發\\Microsoft Visual Studio\\NuGetPackages"

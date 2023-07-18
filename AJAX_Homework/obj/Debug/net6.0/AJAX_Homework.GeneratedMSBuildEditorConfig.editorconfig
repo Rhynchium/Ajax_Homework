@@ -9,113 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AJAX_Homework
 build_property.RootNamespace = AJAX_Homework
-build_property.ProjectDir = C:\Users\james\OneDrive\桌面\程式開發\Ajax\AJAX_Course\AJAX_Homework\
+build_property.ProjectDir = C:\Users\james\OneDrive\文件\GitHub\Ajax_Homework\AJAX_Homework\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\james\OneDrive\桌面\程式開發\Ajax\AJAX_Course\AJAX_Homework
+build_property.MSBuildProjectDirectory = C:\Users\james\OneDrive\文件\GitHub\Ajax_Homework\AJAX_Homework
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Addresses/Create.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Addresses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Addresses/Delete.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Addresses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Addresses/Details.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Addresses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Addresses/Edit.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Addresses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Addresses/Index.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Addresses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/CheckAccount.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/CheckAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja0FjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Fifth.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Fifth.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWZ0aC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/First.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/First.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXJzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Fourth.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Fourth.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3VydGguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Index.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Privacy.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Second.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Second.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWNvbmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Seventh.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Seventh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXZlbnRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/SignUp.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Sixth.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Sixth.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaXh0aC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Home/Third.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Home/Third.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGlyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Members/Create.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Members/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Members/Delete.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Members/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Members/Details.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Members/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Members/Edit.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Members/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Members/Index.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Members/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Shared/Error.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/_ViewImports.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/_ViewStart.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/james/OneDrive/桌面/程式開發/Ajax/AJAX_Course/AJAX_Homework/Views/Shared/_Layout.cshtml]
+[C:/Users/james/OneDrive/文件/GitHub/Ajax_Homework/AJAX_Homework/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8dk0dzy6ym
