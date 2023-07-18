@@ -1,0 +1,52 @@
+﻿@model AJAX_Homework.Models.Members
+@{
+    ViewData["Title"] = "作業3_註冊頁面";
+}
+
+<h1>作業3_註冊頁面</h1>
+<span>
+    @Html.ActionLink("回上一頁", "Third", "Home", null, new { @class="btn btn-warning"})
+</span>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SignUp">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">姓名</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">信箱</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Age" class="control-label">年齡</label>
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FileName" class="control-label">圖片</label>
+                <input type="file" name="FileName" class="form-control" />
+            </div>
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="註冊" id="button" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        const but = document.querySelector("#button");
+        but.addEventListener("click", () => {
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", "/Home/CheckAccount");
+            xhr.send();
+        })
+    </script>
+}

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "作業2";
+}
+
+<h1>作業2</h1>
+<span>
+    @Html.ActionLink("回到主頁", "Index", "Home", null, new { @class="btn btn-warning"})
+</span>
+<hr />
+<div class="container">
+    <div id="hw2" class="row">
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/Travel.js"></script>
+    <script>
+        let datas = "";
+        spots.CommonFormat.Section.forEach(sp => {
+            const { stitle, xbody, idpt, file } = sp;
+            let fit = ""
+            if (file.img.length > 1) {
+                fit = `${file.img[0].text}`;
+            }
+            else {
+                fit = `${file.img.text}`;
+            }
+            const data =
+                    `<div class="card" style="width: 18rem;">
+                         <img src="${fit}" class="card-img-top" alt="...">
+                         <div class="card-body">
+                              <h5 class="card-title">${stitle}</h5>
+                              <p class="card-text">${xbody.substring(0, 50) + "..."}</p>
+                              <a href="#" class="btn btn-primary">${idpt}</a>
+                         </div>
+                    </div>`
+                datas += data;
+        })
+        document.querySelector("#hw2").innerHTML = datas;
+
+    </script>
+}

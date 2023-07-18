@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "作業3";
+}
+
+@*作業三 檢查帳號是否存在
+  1. 製作會員註冊頁面
+  2. 使用者輸入姓名離開後，透過Ajax技術將姓名送到api/CheckAccount Action
+  3. 在 CheckAccount Action 中檢查帳號是否存在，將檢查結果回傳給Client端顯示*@
+
+<h1>作業3</h1>
+<span>
+    @Html.ActionLink("回到主頁", "Index", "Home", null, new { @class="btn btn-warning"})
+</span>
+<hr />
+<div class="row">
+    <div class="col-6">
+        <form method="Post" action="~/Api/CheckAccount" name="forminput">
+            <div class="mb-3">
+                <label for="InputUserName" class="form-label">姓名</label>
+                <input type="text" class="form-control" id="InputUserName" name="Name" />
+                <div id="nameHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="InputEmail" class="form-label">信箱</label>
+                <input type="email" class="form-control" id="InputEmail" name="Email" />
+            </div>
+            <div class="mb-3">
+                <label for="InputAge" class="form-label">年紀</label>
+                <input type="number" class="form-control" id="InputAge" name="Age">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">選擇檔案</label>
+                <input class="form-control" type="file" id="formFile" name="photo">
+            </div>
+
+            <button @*type="submit"*@ class="btn btn-primary" id="butSubmit">Submit</button>
+        </form>
+        <div id="result" class="alert alert-secondary mt-3"></div>
+
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        const inputName = document.querySelector("#InputUserName");
+        const check = document.querySelector("#nameHelp");
+
+        inputName.addEventListener("blur", () => {
+            var formdata = new FormData(document.forminput);
+
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", "/Api/CheckAccount");
+            xhr.send(formdata);
+
+            xhr.addEventListener("load", () => {
+                const data = xhr.responseText;
+                if (data){
+                    check.innerHTML = "此帳號已存在，請重新命名";
+                }
+                else {
+                    check.innerHTML = "";
+                }
+                
+            })
+        })
+    </script>
+}
+
+@section Styles{
+    <style>
+        #nameHelp {
+            color: red;
+        }
+    </style>
+}
+            

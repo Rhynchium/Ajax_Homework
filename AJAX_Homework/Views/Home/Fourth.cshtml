@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewData["Title"] = "作業4";
+}
+
+@*- 作業四 試著做做看 PPT42 住址連動的功能*@
+
+<h1>作業4</h1>
+<span>
+    @Html.ActionLink("回到主頁", "Index", "Home", null, new { @class="btn btn-warning"})
+    @*<a href="~/Home/Index" class="btn btn-danger">回到主頁</a>*@
+</span>
+<hr />
+<div>
+    <select id="city"></select>
+    <select id="site"></select>
+    <select id="road"></select>
+</div>
+
+
+
+@section Scripts{
+    <script>
+        const selectcity = document.querySelector("#city");
+        const selectsite = document.querySelector("#site");
+        const selectroad = document.querySelector("#road");
+
+        LoadCities();
+              
+        function LoadCities(){
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", "/Api/Cities");
+            xhr.send();
+
+            xhr.addEventListener("load", () => {
+                const datas = JSON.parse(xhr.responseText);
+                var cities = datas.map(c => {
+                    return (`<option value="${c.city}">${c.city}</option>`)
+                })
+                selectcity.innerHTML = cities.join("");
+                LoadSites();
+            })
+        }
+
+        function LoadSites() {
+            const city = selectcity.options[selectcity.selectedIndex].value;
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", `/Api/Sites?City=${city}`);
+            xhr.send();
+
+            xhr.addEventListener("load", () => {
+                const datas = JSON.parse(xhr.responseText);
+                var sites = datas.map(site => {
+                    return (`<option value="${site}">${site}</option>`)
+                })
+                selectsite.innerHTML = sites.join("");
+                LoadRoads();
+            })
+        }
+
+        function LoadRoads() {
+            const site = selectsite.options[selectsite.selectedIndex].value;
+            console.log(site);
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", `/Api/Roads?SiteId=${site}`);   //條件名稱需與Api/actionn所用參數相同方可直接沿用(大小寫不拘)
+            xhr.send();
+
+            xhr.addEventListener("load", () => {
+                const datas = JSON.parse(xhr.responseText);
+                console.log(datas);
+                var roads = datas.map(road => {
+                    return (`<option value="${road}">${road}</option>`)
+                })
+                console.log(roads);
+                selectroad.innerHTML = roads.join("");
+            })
+        }
+
+        selectcity.addEventListener("change", LoadSites)
+
+        selectsite.addEventListener("change", LoadRoads)
+    </script>
+}
+
+@section Styles{
+}

@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "作業5";
+}
+@*選擇圖片上傳時先進行預覽*@
+<h1>作業5</h1>
+<span>
+    @Html.ActionLink("回到主頁", "Index", "Home", null, new { @class="btn btn-warning"})
+</span>
+<hr />
+<div class="row">
+    <div class="col-6">
+        <form method="Post" action="~/Home/CheckAccount" name="forminput"> 
+
+            <div class="mb-3">
+                <label for="formFile" class="form-label">選擇檔案</label>
+                <input class="form-control" type="file" id="formFile" name="photo">
+            </div>
+            <div class="mb-3" id="display">
+            </div>
+
+            <button @*type="submit"*@ class="btn btn-primary" id="butSubmit">Submit</button>
+        </form>
+        <div id="result" class="alert alert-secondary mt-3"></div>
+
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        const selectfile = document.querySelector("#formFile");
+        const display = document.querySelector("#display");
+
+        selectfile.addEventListener("change", () => {
+            display.addEventListener("load", () => {
+                var showimg = document.getElementById("#display");
+                showimg.src = "";
+
+                const data = xhr.responseText;
+                result.innerHTML = `<img src="${data}" />`;
+            })
+
+            *******參考這個網站**********
+            https://blog.51cto.com/u_710020/5679836
+        })
+
+    </script>
+}
