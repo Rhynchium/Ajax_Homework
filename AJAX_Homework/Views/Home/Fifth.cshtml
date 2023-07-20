@@ -31,9 +31,9 @@
         //https://progressbar.tw/posts/47
         //https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded
         selectfile.addEventListener("change", () => {
-            const [file] = formFile.files
+            const [file] = formFile.files;
             if (file) {
-                display.src = URL.createObjectURL(file)
+                display.src = URL.createObjectURL(file);
             }
         })
     </script>

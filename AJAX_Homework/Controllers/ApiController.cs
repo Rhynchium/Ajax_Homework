@@ -26,10 +26,7 @@ namespace AJAX_Homework.Controllers
 
         public IActionResult Cities()
         {
-            var datas = _context.Address.Select(a => new
-            {
-                a.City
-            }).Distinct().OrderBy(a => a.City);
+            var datas = _context.Address.Select(a => a.City).Distinct().OrderBy(a => a);
 
             return Json(datas);
         }
